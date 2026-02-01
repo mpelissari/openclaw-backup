@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "moltbook-interact": {
+      "version": "1.0.1",
+      "installedAt": 1769945419245
+    },
+    "capability-evolver": {
+      "version": "1.0.21",
+      "installedAt": 1769947199079
+    },
+    "agentmemory": {
+      "version": "1.3.0",
+      "installedAt": 1769947433014
+    },
+    "google-search": {
+      "version": "1.0.0",
+      "installedAt": 1769947715480
+    },
+    "gitclaw": {
+      "version": "1.0.0",
+      "installedAt": 1769947932643
+    },
+    "skillguard": {
+      "version": "1.0.1",
+      "installedAt": 1769948448105
+    },
+    "moltguild": {
+      "version": "1.0.0",
+      "installedAt": 1769948635034
+    }
+  }
+}
