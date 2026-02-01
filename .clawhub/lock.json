@@ -28,6 +28,26 @@
     "moltguild": {
       "version": "1.0.0",
       "installedAt": 1769948635034
+    },
+    "clawhub": {
+      "version": "1.0.6",
+      "installedAt": 1769972642274
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1769972833490
+    },
+    "god-mode": {
+      "version": "0.1.0",
+      "installedAt": 1769974008117
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1769974271554
+    },
+    "web-search": {
+      "version": "1.0.0",
+      "installedAt": 1769975423482
     }
   }
 }
