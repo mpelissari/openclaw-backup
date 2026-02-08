@@ -1,21 +1,44 @@
-# Available GitHub Copilot Models
+# Available GitHub Copilot Models - Detailed Specs
 
-## Free Models
-- **github-copilot/grok-code-fast-1**: Fast responses, good for code and simple tasks. Low latency, basic reasoning.
-- **github-copilot/grok-beta**: More advanced Grok version, better reasoning, still free.
+Based on GitHub Copilot model specifications.
 
-## Paid Models
-- **github-copilot/gpt-4o**: Advanced reasoning, multi-modal, excellent for complex analysis and creative tasks.
-- **github-copilot/claude-3.5-sonnet**: Strong in code and writing, good balance of performance and cost.
-- **github-copilot/gpt-4-turbo**: High-performance for coding and complex tasks.
-- **github-copilot/claude-3-opus**: Top-tier reasoning and creativity.
-- **github-copilot/gemini-pro**: Google's model, good for multimodal.
+## Claude Models (Anthropic)
+- **Claude Haiku 4.5**: Context 128K/32K, Tools+Vision, 0.33x multiplier (fast, cheap)
+- **Claude Opus 4.5**: Context 128K/32K, Tools+Vision, 3x multiplier (powerful, expensive)
+- **Claude Opus 4.6**: Context 128K/64K, Tools+Vision, 3x multiplier (latest Opus, high output)
+- **Claude Sonnet 4**: Context 128K/16K, Tools+Vision, 1x multiplier (balanced)
+- **Claude Sonnet 4.5**: Context 128K/32K, Tools+Vision, 1x multiplier (current Sonnet)
+
+## Gemini Models (Google)
+- **Gemini 2.5 Pro**: Context 109K/64K, Tools+Vision, 1x multiplier (high performance)
+- **Gemini 3 Flash (Preview)**: Context 109K/64K, Tools+Vision, 0.33x multiplier (fast, preview)
+- **Gemini 3 Pro (Preview)**: Context 109K/64K, Tools+Vision, 1x multiplier (advanced, preview)
+
+## GPT Models (OpenAI)
+- **GPT-4.1**: Context 111K/16K, Tools+Vision, 0x multiplier (free?)
+- **GPT-4o**: Context 64K/4K, Tools+Vision, 0x multiplier (free, classic)
+- **GPT-5**: Context 128K/128K, Tools+Vision, 1x multiplier (latest, balanced)
+- **GPT-5 mini**: Context 128K/64K, Tools+Vision, 0x multiplier (fast mini)
+- **GPT-5-Codex (Preview)**: Context 128K/128K, Tools+Vision, 1x multiplier (code-focused)
+- **GPT-5.1**: Context 128K/64K, Tools+Vision, 1x multiplier (improved)
+- **GPT-5.1-Codex**: Context 128K/128K, Tools+Vision, 1x multiplier (code)
+- **GPT-5.1-Codex-Max**: Context 128K/128K, Tools+Vision, 1x multiplier (max code)
+- **GPT-5.1-Codex-Mini (Preview)**: Context 128K/128K, Tools+Vision, 0.33x multiplier (mini code)
+- **GPT-5.2**: Context 128K/64K, Tools+Vision, 1x multiplier (next gen)
+- **GPT-5.2-Codex**: Context 272K/128K, Tools+Vision, 1x multiplier (huge context code)
+
+## Other
+- **Grok Code Fast 1**: Context 109K/64K, Tools, 0x multiplier (free, fast code)
+- **Raptor mini (Preview)**: Context 200K/64K, Tools+Vision, 0x multiplier (preview, large context)
 
 ## Selection Guidelines
-- Use free models for routine tasks to save costs.
-- Use paid models for high-stakes, complex, or time-sensitive work.
-- Fallback order: grok-code-fast-1 -> grok-beta -> gpt-4o -> claude-3.5-sonnet -> gpt-4-turbo -> claude-3-opus -> gemini-pro
+- **Cost**: Lower multiplier = cheaper/faster (0.33x cheapest, 3x most expensive)
+- **Context**: Higher numbers better for long tasks
+- **Use**: Code tasks -> Codex variants; Vision -> models with Vision; Tools for function calling
+- **Free**: 0x multiplier models
+- **Paid**: 0.33x to 3x
 
 ## Cost Considerations
-- Free: No usage costs, but may have rate limits.
-- Paid: Usage-based, higher quality but more expensive.
+- Multiplier indicates relative cost per request
+- Free models have 0x, no usage costs
+- Paid models scale with multiplier
