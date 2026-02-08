@@ -20,10 +20,10 @@ def classify_query(query):
     query_lower = query.lower()
     length = len(query.split())
     
-    # Keywords indicating complexity
-    complex_keywords = ['explain', 'analyze', 'design', 'architecture', 'optimize', 'debug', 'troubleshoot', 'research', 'plan', 'strategy']
-    code_keywords = ['code', 'function', 'class', 'script', 'api', 'database', 'algorithm', 'debug', 'fix']
-    creative_keywords = ['write', 'story', 'poem', 'design', 'create', 'generate']
+    # Keywords indicating complexity (English and Portuguese)
+    complex_keywords = ['explain', 'analyze', 'design', 'architecture', 'optimize', 'debug', 'troubleshoot', 'research', 'plan', 'strategy', 'explique', 'analise', 'desenhe', 'otimize', 'depurar', 'pesquise', 'planeje', 'avançado', 'complexo']
+    code_keywords = ['code', 'function', 'class', 'script', 'api', 'database', 'algorithm', 'debug', 'fix', 'código', 'função', 'classe', 'script', 'api', 'banco de dados', 'algoritmo']
+    creative_keywords = ['write', 'story', 'poem', 'design', 'create', 'generate', 'escreva', 'história', 'poema', 'crie', 'gere']
     
     # Simple heuristics
     is_very_complex = any(kw in query_lower for kw in complex_keywords) and length > 100
