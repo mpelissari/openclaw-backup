@@ -6,6 +6,7 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** Mauricio
 - **Pronouns:** he/him
 - **Timezone:** America/Sao_Paulo
+- **Location:** Curitiba, Paraná
 - **Notes:** Owner number +5541988069428. Email: m.pelissari@gmail.com. Partner in AI adventures.
 
 ## Context
