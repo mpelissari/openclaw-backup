@@ -12,7 +12,11 @@ _Learn about the person you're helping. Update this as you go._
 ## Context
 
 - Trabalhando no SupleManager, um sistema de gestão de suplementos (em ~/Documentos/workspace/SupleManager). É um projeto Node.js com Firebase, testes, etc.
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Cares about: AI development, system stability, productivity tools, open-source projects.
+- Projects: SupleManager (supplement management system), OpenClaw workspace backups on Git.
+- Annoys: AI loops/errors, authentication issues, system downtimes.
+- Makes laugh: Tech memes, witty comments, successful fixes after debugging.
+_(Build this over time.)_
 
 ---
 
